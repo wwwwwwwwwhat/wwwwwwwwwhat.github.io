@@ -7,4 +7,5 @@
   <a href="WebDesignAssignments/Math_Test_Form_Assignment_CassandraM.html" target="_self">Math Test Form Assignment</a><br/>
   <a href="WebDesignAssignments/Color_Scheme_Assignment_CassandraM.html" target="_self">Color Scheme Assignment</a><br/>
   <a href="WebDesignAssignments/Restaurant_Menu_Assignment_CassandraM.html" target="_self">Restaurant Menu Article Assignment</a><br/>
+  <a href="WebDesignAssignments/Stylish_Schedule__Assignment_CassandraM.html" target="_self">Stylish Schedule Assignment</a><br/>
 </body>
