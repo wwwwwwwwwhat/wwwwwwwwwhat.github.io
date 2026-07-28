@@ -1,3 +1,23 @@
 <head>
   <title>FlexBox/CSS Puzzle Assignment</title>
 </head>
+<body>
+<style>
+  section.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    grid-template-rows:;
+    padding:10px;
+  }
+  .puzzlebox {
+    grid-column-start: auto;
+    grid-column-end: span 6;
+  }
+</style>
+<section class="grid-container">
+  <div>Cassandra McCaughey</div>
+  <div>Butterflies</div>
+  <div>07/28/2026</div>
+  <div class="puzzlebox">(puzzle)</div>
+</section>
+</body>
