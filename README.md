@@ -12,4 +12,6 @@
   <a href="WebDesignAssignments/Flexbox_CSS_Puzzle_Assignment_CassandraM.html" target="_blank">Flexbox/CSS Grid Puzzle Assignment</a><br/>
   <h3>Scorecards Assignment</h3>
     <a href="WebDesignAssignments/Scorecards_Assignment/Bowling_Scorecard_CassandraM.html" target="_blank">Bowling Scorecard</a><br/>
+    <a href="WebDesignAssignments/Scorecards_Assignment/Soccer_Scorecard_CassandraM.html" target="_blank">Soccer Scorecard</a><br/>
+    <a href="WebDesignAssignments/Scorecards_Assignment/Scrabble_Scorecard_CassandraM.html" target="_blank">Scrabble Scorecard</a><br/>
 </body>
