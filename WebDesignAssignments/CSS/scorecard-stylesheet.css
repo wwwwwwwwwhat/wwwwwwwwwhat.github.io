@@ -7,6 +7,9 @@ tr, td, th {
   border-collapse: collapse;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+th {
+  font-weight: bold;
+}
 tr td:first-child {
   background-color: grey;
   font-weight: bold;
