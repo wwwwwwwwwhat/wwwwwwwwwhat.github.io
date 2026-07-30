@@ -9,6 +9,9 @@
         width: 600px;
         height: 150px;
       }
+      tr:first-child td:first-child {
+        border: none;
+      }
     </style>
   </head>
   <body>
@@ -17,6 +20,25 @@
     <br/>
     <table>
       <caption>Soccer Scorecard</caption>
+      <tr>
+        <td style="visibility: hidden;"></td>
+        <th>Team A</th>
+        <th>Team B</th>
+      </tr>
+      <tr>
+        <td>1st Half Goals</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2nd Half Goals</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Winner:</td>
+        <td colspan="2">(Team name)</td>
+      </tr>
     </table>
   </body>
 </html>
