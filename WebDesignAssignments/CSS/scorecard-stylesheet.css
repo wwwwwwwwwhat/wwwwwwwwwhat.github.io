@@ -8,12 +8,14 @@ tr, td, th {
 }
 th {
   font-weight: bold;
+  background-color: lightgray;
 }
 tr td:first-child {
-  background-color: grey;
   font-weight: bold;
 }
 table tr:last-child td:last-child {
   border: 4px solid gold;
   font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
 }
