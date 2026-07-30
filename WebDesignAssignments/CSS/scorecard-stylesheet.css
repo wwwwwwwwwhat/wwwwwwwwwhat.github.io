@@ -17,7 +17,7 @@ th {
 }
 tr td:first-child {
   font-weight: bold;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 table tr:last-child td:last-child {
   border: 6px solid gold;
