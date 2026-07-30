@@ -1,6 +1,10 @@
 table {
   border-collapse: collapse;
 }
+caption {
+  font-size: 25px;
+  font-weight: bold;
+}
 tr, td, th {
   border: 3px solid black;
   border-collapse: collapse;
