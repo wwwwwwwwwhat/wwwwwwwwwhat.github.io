@@ -1,1 +1,79 @@
-
+body {
+  background-color: #e11339;
+}
+h3, h4, p, img {
+  display: inline-block;
+}
+div.top {
+  display: flex;
+  position: relative;
+  width:1200px;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+div.top h3 {
+  font-family: "Century Gothic", Futura, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 4em;
+  width:600px;
+}
+div.top p {
+  padding-top: 150px;
+  width: 400px;
+  height: 30px;
+  color: white;
+}
+div.container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #f88c8c;
+  width: 90%;
+  margin: 100px auto;
+}
+div.step {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 560px;
+  height: 315px;
+  margin: 20px;
+  justify-content: center;
+}
+h4, p {
+  font-family: "Century Gothic", Futura, sans-serif;
+  font-size: 1.5em;
+  color: black;
+}
+img {
+  width:320px;
+  right: 0px;
+}
+div.step h4 {
+  text-align: center;
+  margin-top: 0px;
+}
+div.step p {
+  width:200px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding-left:10px;
+}
+div.step:last-of-type {
+  background-color: #e11339;
+}
+div.step:last-of-type h4 {
+  color: white;
+  font-size: 3em;
+}
+iframe {
+  margin: 20px;
+}
+img.tooshortimg {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
