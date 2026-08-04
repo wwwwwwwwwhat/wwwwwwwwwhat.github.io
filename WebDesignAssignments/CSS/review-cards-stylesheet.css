@@ -1,6 +1,6 @@
  @font-face {
   font-family: 'ChineseFont';
-  src: url('Documents/Chinese-Font.ttf') format('truetype');
+  src: url('/Documents/Chinese-Font.ttf') format('truetype');
 }
 body {
   background-color: #dedaf1;
@@ -8,6 +8,7 @@ body {
 }
 h1 {
   color: #171d33;
+  font-family: 'ChineseFont', Arial, sans-serif;
 }
 div.container { <!--animate to slide up-->
   display: flex;
