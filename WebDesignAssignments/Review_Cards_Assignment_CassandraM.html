@@ -16,13 +16,39 @@
       h1 {
         color: #171d33;
       }
-      div.container {
+      div.container { <!--animate to slide up-->
+        display: flex;
+        flex-direction: column;
+      }
+      div.q {
+      }
+      h4 {
+      }
+      h4.term {
+        background-color: #253d81;
+        width: 500px;
+        height: 300px;
+        z-index: 2;
+      }
+      h4.definition { <!--animate to slide out when hovering over term-->
         background-color: #f0eefb;
+        width: 500px;
+        height: 300px;
       }
     </style>
   </head>
   <body>
     <h1>Review Cards</h1>
+    <div class="container">
+      <div class="q">
+        <h4 class="term">
+          nihao
+        </h4>
+        <h4 class="definiton">
+          hello
+        </h4>
+      </div>
+    </div>
   </body>
 </html>
 <!--cute hot pink #f26d84, webdesignpurple #253d81-->
