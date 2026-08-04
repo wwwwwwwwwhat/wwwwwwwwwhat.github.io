@@ -1,0 +1,30 @@
+ @font-face {
+  font-family: 'ChineseFont';
+  src: url('Documents/Chinese-Font.ttf') format('truetype');
+}
+body {
+  background-color: #dedaf1;
+  font-family: 'ChineseFont', Arial, sans-serif;
+}
+h1 {
+  color: #171d33;
+}
+div.container { <!--animate to slide up-->
+  display: flex;
+  flex-direction: column;
+}
+div.q {
+}
+h4 {
+}
+h4.term {
+  background-color: #253d81;
+  width: 500px;
+  height: 300px;
+  z-index: 2;
+}
+h4.definition { <!--animate to slide out when hovering over term-->
+  background-color: #f0eefb;
+  width: 500px;
+  height: 300px;
+}
