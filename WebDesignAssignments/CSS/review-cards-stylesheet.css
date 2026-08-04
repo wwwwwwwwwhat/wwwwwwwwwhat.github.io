@@ -32,7 +32,7 @@ h4.term {
   z-index: 2;
 }
 h4.definition {
-  background-color: #f0eefb;
+  background-color: blue;
   width: 600px;
   height: 300px;
   transition: margin-left 2s;
