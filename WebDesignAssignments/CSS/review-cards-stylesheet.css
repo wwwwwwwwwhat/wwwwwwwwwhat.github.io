@@ -13,10 +13,16 @@ h1 {
 div.container { <!--animate to slide up-->
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 div.q {
+  position: relative;
+  height: 600px;
 }
 h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 h4.term {
   background-color: #253d81;
@@ -24,11 +30,12 @@ h4.term {
   height: 300px;
   z-index: 2;
 }
-h4.definition
+h4.definition {
   background-color: #f0eefb;
   width: 500px;
   height: 300px;
   transition: margin-left 2s;
+  z-index: 1;
 }
 h4.definition:hover {
   margin-left: 100px;
