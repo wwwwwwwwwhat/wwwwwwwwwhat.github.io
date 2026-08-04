@@ -24,6 +24,7 @@ h4 {
   position: absolute;
   top: 0;
   left: 0;
+  font-size: 3em;
 }
 h4.term {
   background-color: #253d81;
