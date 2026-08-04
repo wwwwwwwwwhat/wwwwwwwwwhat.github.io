@@ -27,4 +27,8 @@ h4.definition { <!--animate to slide out when hovering over term-->
   background-color: #f0eefb;
   width: 500px;
   height: 300px;
+  transition: margin-left 2s;
+}
+h4.definition:hover {
+  margin-left: 100px;
 }
