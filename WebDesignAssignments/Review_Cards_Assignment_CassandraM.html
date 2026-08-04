@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Review Cards Assignment</title>
-    <link rel="stylesheet" type="text/css" href="CSS/review-cards-stylesheet.css">
+   <!-- <link rel="stylesheet" type="text/css" href="CSS/review-cards-stylesheet.css"> -->
     <style>
       @font-face {
   font-family: 'ChineseFont';
@@ -39,16 +39,18 @@ h4.term {
   height: 300px;
   z-index: 2;
 }
-h4.definition {
-  background-color: blue;
-  width: 600px;
-  height: 300px;
+div.definition {
   transition: margin-left 2s;
   transition-timing-function: ease;
   z-index: 1;
+  width: 600px;
+  height: 300px;
 }
-h4.definition:hover {
-  margin-left: 100px;
+h4.definition {
+  background-color: white;
+}
+div.definition:hover {
+  margin-left: 200px;
 }
     </style>
   </head>
@@ -59,9 +61,11 @@ h4.definition:hover {
         <h4 class="term">
           nihao 你好
         </h4>
-        <h4 class="definiton">
-          hello
-        </h4>
+        <div class="definition">
+          <h4 class="definiton">
+            hello
+          </h4>
+        </div>
       </div><!--end of question 1-->
       <div class="q">
         <h4 class="term">
