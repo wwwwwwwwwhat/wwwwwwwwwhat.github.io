@@ -1,6 +1,6 @@
  @font-face {
   font-family: 'ChineseFont';
-  src: url('/Documents/Chinese-Font.ttf') format('truetype');
+  src: url('/Documents/Chinese-font.ttf') format('truetype');
 }
 body {
   background-color: #dedaf1;
