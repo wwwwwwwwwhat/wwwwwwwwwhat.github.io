@@ -38,7 +38,7 @@
       h4 {
         font-size: 3em;
         position: absolute;
-        top: 5px;
+        bottom: 5px;
         left: 5px;
         display: flex;
         width: 500px;
@@ -55,7 +55,8 @@
         transition-timing-function:ease;
       }
       h4.term:hover {
-        margin-left: 400px;
+        perspective: 400px;
+        transform: rotate(-30deg) translate(30px 30px);
       }
       h4.definition {
         color: #efedfa;
