@@ -18,17 +18,30 @@
         color: #171d33;
         font-size: 3em;
       }
+      @keyframes slideup {
+        0% {
+          filter: transparency(100%)
+          -webkit-filter: transparency(100%);
+          transform: translate{0px -800px);
+        }
+        100% {
+          filter: transparency(0%);
+          -webkit-filter: transparency(0%);
+          transform: translate(0px 0px)
+        }
+      }
       div.container {
         display: flex;
         flex-direction: row;
         margin-left: 70px;
         gap:15px;
         flex-wrap: wrap;
+        animation-name: slideup;
+        animation-duration: 4s;
       }
       div.q {
         height: 160px;
         width: 600px;
-        background-color: red;
         position: relative;
         display: flex;
         flex-direction: row;
