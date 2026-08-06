@@ -10,12 +10,12 @@
         font-weight: normal;
       }
       @keyframes slideup {
-        from {
+        0% {
           filter: opacity(0%)
           -webkit-filter: opacity(0%);
           transform: translate{0px, -800px);
         }
-        to {
+        100% {
           filter: opacity(q00%);
           -webkit-filter: opacity(100%);
           transform: translate(0px, 0px);
@@ -29,7 +29,7 @@
         color: #171d33;
         font-size: 3em;
       }
-      div.container {
+      .container {
         display: flex;
         flex-direction: row;
         margin-left: 70px;
@@ -39,7 +39,7 @@
         animation-name: slideup;
         animation-duration: 4s;
       }
-      div.q {
+      .q {
         height: 160px;
         width: 600px;
         position: relative;
