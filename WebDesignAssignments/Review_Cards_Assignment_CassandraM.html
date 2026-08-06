@@ -18,6 +18,21 @@
           opacity: 100;
         }
       }
+       @keyframes title {
+        0% {
+          transform: scaleX(0%) scaleY(0%) translate(300px, 300px) rotate(1000deg);
+        }
+        80% {
+          transform: scaleX(150%) scaleY(150%) translate(300px, 300px);
+        }
+        85% {
+          transform: scaleX(150%) scaleY(150%) translate(300px, 300px);
+          color: #f26d84;
+        }
+        100% {
+          color: #171d33;
+        }
+      }
       body {
         background-color: #dedaf1;
         font-family: 'ChineseFont', Arial, sans-serif;
@@ -25,6 +40,8 @@
       h1 {
         color: #171d33;
         font-size: 5em;
+        animation-name: title;
+        animation-duration: 7s;
       }
       .container {
         display: flex;
@@ -35,6 +52,7 @@
         justify-content: flex-start;
         animation-name: slideup;
         animation-duration: 4s;
+        animation-delay: 2s;
       }
       .q {
         height: 160px;
