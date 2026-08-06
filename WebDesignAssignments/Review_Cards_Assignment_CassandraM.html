@@ -10,11 +10,15 @@
         font-weight: normal;
       }
       @keyframes slideup {
-        from {
+        0% {
           opacity: 0;
           transform: translateY(800px);
         }
-        to {
+        50% {
+          opacity: 0;
+          transform: translateY(800px);
+        }
+        100% {
           opacity: 100;
         }
       }
@@ -58,8 +62,7 @@
         flex-wrap: wrap;
         justify-content: flex-start;
         animation-name: slideup;
-        animation-duration: 4s;
-        animation-delay: 3s;
+        animation-duration: 8s;
       }
       .q {
         height: 160px;
