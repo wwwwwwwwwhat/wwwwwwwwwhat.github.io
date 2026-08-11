@@ -16,5 +16,6 @@
     <a href="WebDesignAssignments/Scorecards_Assignment/Scrabble_Scorecard_CassandraM.html" target="_blank">Scrabble Scorecard</a><br/><br/>
   <a href="WebDesignAssignments/Video_Embedding_Tutorial_Assignment_CassandraM.html" target="_blank">Video Embedding Tutorial Assignment</a><br/>
 <a href="WebDesignAssignments/Imitation_Assignment_CassandraM.html" target="_blank">Imitation Assignment</a><br/>
-<a href="WebDesignAssignments/Review_Cards_Assignment_CassandraM.html" target="_blank">Review Cards Assignment</a>
+<a href="WebDesignAssignments/Review_Cards_Assignment_CassandraM.html" target="_blank">Review Cards Assignment</a><br/>
+<a href="WebDesignAssignments/Final_Project/Homepage_CassandraM.html" target="_blank" style="font-size:2em;">Final Project</a>
 </body>
