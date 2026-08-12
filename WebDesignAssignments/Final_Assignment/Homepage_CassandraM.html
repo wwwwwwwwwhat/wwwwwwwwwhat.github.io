@@ -12,7 +12,7 @@
         position: fixed;
         top: 0px;
         width: 100%;
-        height: 150px;
+        height: 80px;
         background-color: white;
         display: flex;
         flex-direction: row;
@@ -22,12 +22,16 @@
       div.banner {
         width: auto;
         height: auto;
-        display: flex;
+        position: relative;
       }
       img {
         width: 100%;
         height: auto;
         margin: 0px;
+      }
+      div.title {
+        position: absolute;
+        
       }
     </style>
   </head>
@@ -39,9 +43,11 @@
     </div>
     <div class="banner">
       <img src="../Images/Final/russel.png">
-    </div>
-      <h1>The Pooch Palace</h1>
-      <h3>Luxury Spa & Grooming</h3>
+      <div class="title">
+        <h1>The Pooch Palace</h1>
+        <h3>Luxury Spa & Grooming</h3>
+      </div>
+    </div><!--End of banner-->
     <div>
       <p>
         Give your canine companion the experience of a lifetime! Our expert staff and acclaimed facilities ensure that every dog is pampered 
