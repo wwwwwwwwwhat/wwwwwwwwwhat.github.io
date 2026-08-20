@@ -1,1 +1,9 @@
-
+@font-face {
+  font-family: 'Inter';
+  src: url('../Documents/Inter.ttf') format('truetype');
+  font-weight: normal;
+}
+body {
+  background-color: beige;
+  font-family: 'Inter', Arial, sans-serif;
+}
