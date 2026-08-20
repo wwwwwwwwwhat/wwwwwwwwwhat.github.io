@@ -4,6 +4,7 @@
   font-weight: normal;
 }
 body {
+  margin: 0px;
   background-color: beige;
   font-family: 'Inter', Arial, sans-serif;
 }
