@@ -95,6 +95,16 @@
       form textarea {
         width: 200px;
       }
+      input[type="submit"] {
+        visibility: none;
+        width: 0;
+        height: 0;
+      }
+      div.q::last-of-type label {
+        width: 400px;
+        background-color: #007bff;
+        color: white;
+      }
     </style>
   </head>
   <body>
@@ -301,6 +311,10 @@
           <div class="q">
             Notes:
             <textarea rows="2" cols="40" placeholder="Behaviors, triggers, etc."></textarea>
+          </div>
+          <div class="q">
+            <input type="submit" id="push">
+            <label for="push">SUBMIT!</label>
           </div>
         </form>
       </div>
