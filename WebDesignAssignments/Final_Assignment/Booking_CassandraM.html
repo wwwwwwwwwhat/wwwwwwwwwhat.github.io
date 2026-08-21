@@ -20,9 +20,8 @@
       div.book {
         display: grid;
         width: auto;
-        grid-template-columns: 1fr 1fr;
-        gap: 0px;
-        margin: 0px auto;
+        grid-template-columns: 1fr auto auto 1fr;
+        column-gap: 0px;
       }
       /*Table styling*/
       table {
@@ -33,6 +32,7 @@
         padding: 0px;
         border-collapse: collapse;
         border-radius: 10px 0px 0px 10px;
+        grid-column: 2;
       }
       th {
         height: 15px;
@@ -77,6 +77,7 @@
         width: 500px;
         height: 100%;
         background-color: green;
+        grid-column: 3;
       }
     </style>
   </head>
