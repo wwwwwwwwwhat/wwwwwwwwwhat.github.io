@@ -100,11 +100,21 @@
         width: 0;
         height: 0;
       }
+      div.q::last-of-type {
+        justify-content: center;
+      }
       div.q::last-of-type label {
+        display: block;
         width: 400px;
         height: 150px;
         background-color: #007bff;
         color: white;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        transform-origin: center;
+      }
+      div.q::last-of-type label:hover {
+        transform: scaleY(1.4) scaleX(1.2);
       }
     </style>
   </head>
