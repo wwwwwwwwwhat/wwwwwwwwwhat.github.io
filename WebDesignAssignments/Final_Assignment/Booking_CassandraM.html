@@ -79,11 +79,20 @@
         justify-content: space-between;
         width: 500px;
         height: 100%;
-        text-align: center;
-        
+        padding-left: 200px;
+      }
+      div.q {
+        width: 300px;
+        padding-left: 200px;
       }
       form select {
-        margin: auto 0px;
+        width: 100px;
+      }
+      form input {
+        width: 100px;
+      }
+      form textarea {
+        width: 120px;
       }
     </style>
   </head>
@@ -255,36 +264,43 @@
         </table><!--End of calendar-->
         <form>
           Service(s):
-          <select>
-            <option selected disabled hidden></option>
-            <option>Brush-out/Styling</option>
-            <option>Basic Wash</option>
-            <option>Luxury Wash</option>
-            <option>Basic Cut</option>
-            <option>Advanced Cut</option>
-            <option>Mani/Pedi</option>
-          </select>
-          <br/>
-          Dog size:
-          <select>
-            <option selected disabled hidden></option>
-            <option>Small (ex. Chihuahua, Pomeranian)</option>
-            <option>Medium (ex. Terrier, Beagle, Bulldog)</option>
-            <option>Large (ex. Labrador, Border Collie, Poodle)</option>
-            <option>XL (ex. German Shepherd, Mastiff)</option>
-          </select>
-          <br/>
-          Name:
-          <input type="text">
-          <br/>
-          Phone number:
-          <input type="number">
-          <br/>
-          Dog name:
-          <input type="text">
-          <br/>
-          Notes:
-          <textarea rows="2" cols="40" placeholder="Behaviors, triggers, etc."></textarea>
+          <div class="q">
+            <select>
+              <option selected disabled hidden></option>
+              <option>Brush-out/Styling</option>
+              <option>Basic Wash</option>
+              <option>Luxury Wash</option>
+              <option>Basic Cut</option>
+              <option>Advanced Cut</option>
+              <option>Mani/Pedi</option>
+            </select>
+          </div>
+          <div class="q">
+            Dog size:
+            <select>
+              <option selected disabled hidden></option>
+              <option>Small (ex. Chihuahua, Pomeranian)</option>
+              <option>Medium (ex. Terrier, Beagle, Bulldog)</option>
+              <option>Large (ex. Labrador, Border Collie, Poodle)</option>
+              <option>XL (ex. German Shepherd, Mastiff)</option>
+            </select>
+          </div>
+          <div class="q">
+            Name:
+            <input type="text">
+          </div>
+          <div class="q">
+            Phone number:
+            <input type="number">
+          </div>
+          <div class="q">
+            Dog name:
+            <input type="text">
+          </div>
+          <div class="q">
+            Notes:
+            <textarea rows="2" cols="40" placeholder="Behaviors, triggers, etc."></textarea>
+          </div>
         </form>
       </div>
     </main>
