@@ -15,10 +15,26 @@
         margin: 0px 0px 45px 0px;
       }
       div.fnav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        gap: 0px;
         width: 100%;
         height: 200px;
         background-color: #aecbd9;
         margin: 0px;
+      }
+      div.fnav h1 {
+        grid-column: 1;
+        grid-row: span 2;
+      }
+      div.fnav div.links {
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      div.fnav div.socials {
+        grid-row: 2;
       }
       div.book {
         display: grid;
