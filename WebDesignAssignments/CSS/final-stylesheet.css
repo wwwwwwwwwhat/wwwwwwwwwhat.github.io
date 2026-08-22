@@ -24,12 +24,18 @@ div.fnav h1 {
   margin: auto;
   font-size: 45px;
 }
-div.fnav div.links {
+div.fnav div.a {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.fnav div.col {
   grid-column: 2;
   grid-row: 1;
   display: flex;
   flex-direction: column;
-  margin: auto;
 }
 div.fnav div.socials {
   grid-column: 2;
