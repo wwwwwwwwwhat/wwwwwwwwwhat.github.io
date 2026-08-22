@@ -15,14 +15,18 @@ div.fnav {
   gap: 0px;
   width: 100%;
   height: 300px;
-  background-color: #aecbd9;
+  background-color: darkgray;
   margin: 0px;
+  color: white;
 }
 div.fnav h1 {
   grid-column: 1;
   grid-row: span 2;
   margin: auto;
   font-size: 45px;
+}
+div.fnav h3 {
+  font-weight: bold;
 }
 div.fnav div.a {
   grid-column: 2;
@@ -48,4 +52,6 @@ div.fnav div.socials {
 div.socials img {
   width: 40px;
   height: 40px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
