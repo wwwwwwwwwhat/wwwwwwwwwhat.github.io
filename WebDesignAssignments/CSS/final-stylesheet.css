@@ -25,9 +25,6 @@ div.fnav h1 {
   margin: auto;
   font-size: 45px;
 }
-div.fnav h3 {
-  font-weight: bold;
-}
 div.fnav div.a {
   grid-column: 2;
   grid-row: span 2;
