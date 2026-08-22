@@ -37,6 +37,11 @@ div.a div.col {
   gap: 5px;
   width: 30%;
 }
+div.a div.col p {
+  gap: 0px;
+  margin: 0px;
+  padding: 0px;
+}
 div.fnav div.socials {
   grid-column: 1;
   grid-row: 2;
