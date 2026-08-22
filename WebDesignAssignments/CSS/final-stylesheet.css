@@ -35,10 +35,11 @@ div.fnav div.a {
   flex-direction: row;
   justify-content: space-between;
 }
-div.fnav div.col {
+div.a div.col {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 30%;
 }
 div.fnav div.socials {
   grid-column: 1;
