@@ -38,7 +38,7 @@ div.fnav div.a {
 div.a div.col {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   width: 30%;
 }
 div.fnav div.socials {
