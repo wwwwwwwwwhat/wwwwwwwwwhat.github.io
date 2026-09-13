@@ -18,6 +18,7 @@ div.fnav {
   background-color: rgb(45, 50, 65);
   margin: 0px;
   color: white;
+  font-family: 'Inter', Arial, sans-serif;
 }
 div.fnav h1 {
   grid-column: 1;
@@ -36,6 +37,11 @@ div.a div.col {
   flex-direction: column;
   gap: 5px;
   width: 30%;
+}
+div.col a {
+  color: white;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: auto;
 }
 div.fnav div.socials {
   grid-column: 1;
