@@ -41,7 +41,7 @@ div.a div.col {
 div.col a {
   color: white;
   font-family: 'Inter', Arial, sans-serif;
-  margin: auto;
+  margin-top: auto;
 }
 div.fnav div.socials {
   grid-column: 1;
