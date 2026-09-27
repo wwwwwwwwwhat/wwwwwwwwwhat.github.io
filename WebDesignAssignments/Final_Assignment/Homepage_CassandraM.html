@@ -40,6 +40,33 @@
         top: 0px;
         z-index: 2;
       }
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #8450b5;
+      }
+      section.intro {
+        display: grid;
+        width: 90%;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 3fr 1fr;
+      }
+      div.I {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      div.II {
+        grid-column: 2;
+        grid-row: 1;
+      }
+      div.III {
+        grid-column:1;
+        colspan: 2;
+        grid-row: 2;
+        background-color: purple;
+        color: white;
+      }
     </style>
   </head>
   <body>
@@ -57,9 +84,29 @@
         </div>
       </div>
     </header>
-    <main>
-      
+    
+    <main><!--main starts-->
+      <section class="intro">
+        <div class="I">
+          <h2>In the <b>heart of LA</b>.</h2>
+          <h2><b>20</b> private rooms.</h2>
+          <h2>Pooch pampering for up to <b>6 hrs</b>.</h2>
+          <h2>Stylists trained in <b>over 200+ cuts</b>.</h2>
+          <h2><b>Complimentary</b> doggy treats.</h2>
+          <h2>No harsh products or treatment.</h2>
+          <h2><b>PETA certified</b>.</h2>
+        </div>
+        <div class="II">
+          <img href="" alt="">
+        </div>
+        <div class="III">
+          <p>At Pooch Palace, we care about your pets. We pride ourselves on quality work. and ensure that every dog leaves happier (and snazzier) than they came in.</p>
+        </div>
+      </section>
     </main>
+
+
+    
     <footer>
       <div class="fnav">
         <h1>Pooch Palace</h1>
