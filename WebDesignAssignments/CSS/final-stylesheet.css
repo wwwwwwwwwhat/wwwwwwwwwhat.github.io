@@ -8,6 +8,7 @@ body {
   background-color: #ddd5f3;
   font-family: 'Inter', Arial, sans-serif;
 }
+/*footer styling*/
 div.fnav {
   display: grid;
   grid-template-columns: 3fr 5fr;
