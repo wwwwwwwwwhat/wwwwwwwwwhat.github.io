@@ -12,6 +12,7 @@ div.head {
   margin: 0px;
   color:white;
   font-weight: bold;
+  z-index: 1;
 }
 p.nav {
     display: block;
