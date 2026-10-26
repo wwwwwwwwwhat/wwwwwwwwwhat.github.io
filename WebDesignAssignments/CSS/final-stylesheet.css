@@ -13,6 +13,18 @@ div.head {
   color:white;
   font-weight: bold;
 }
+p.nav {
+    display: block;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 700;
+    Height: 50px;
+    padding: 0px;
+    margin-top: 0px;
+    line-height: 50px;
+    text-align: center;
+  }
 body {
   margin: 0px;
   margin-top: 200px;
