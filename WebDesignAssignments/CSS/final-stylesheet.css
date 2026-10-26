@@ -24,6 +24,7 @@ p.nav {
     margin-top: 0px;
     line-height: 50px;
     text-align: center;
+    gap: 20px;
   }
 body {
   margin: 0px;
