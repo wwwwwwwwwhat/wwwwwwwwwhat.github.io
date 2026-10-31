@@ -18,6 +18,10 @@ div.banner {
   color: white;
   font-weight: bold;
   }
+div.banner h1, h3 {
+  color: white;
+  font-weight: bold;
+}
 header {
   margin: 0px;
     }
