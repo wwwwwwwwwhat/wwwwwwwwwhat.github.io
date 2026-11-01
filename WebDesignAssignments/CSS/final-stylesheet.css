@@ -21,6 +21,8 @@ div.banner {
 div.banner h1, h3 {
   color: white;
   font-weight: bold;
+  filter: hue-rotate(-200deg) brightness(200%);
+  -webkit-filter: hue-rotate(-200deg) brightness(200%);
 }
 header {
   margin: 0px;
