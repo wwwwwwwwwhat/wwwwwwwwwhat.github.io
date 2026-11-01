@@ -5,7 +5,7 @@
     <title>Services</title>
     <link rel="stylesheet" type="text/css" href="../CSS/final-stylesheet.css">
     <style>
-      div.c {
+      div.hold div {
         background-color: red;
       }
       div.hold {
@@ -18,6 +18,27 @@
         background-color: #eee4bb;
         border-radius: 25px;
         margin-bottom: 25px;
+      }
+      div.acut {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      div.bcut {
+        grid-column: 2;
+        grid-row: 1;
+      }
+      div.sbath {
+        grid-column: 1;
+        grid-row: 2;
+      }
+      div.lbath {
+        grid-column: 2;
+        grid-row: 2;
+      }
+      div.babys {
+        grid-column: 1;
+        colspan: 2;
+        grid-row: 3;
       }
     </style>
   </head>
@@ -36,19 +57,19 @@
     </header>
     <main>
       <div class="hold">
-        <div class="c">
+        <div class="bcut">
           <h3>Basic Cut</h3>
         </div>
-        <div class="c">
+        <div class="acut">
           <h3>Advanced Cut</h3>
         </div>
-        <div class="c">
+        <div class="sbath">
           <h3>Standard Bath</h3>
         </div>
-        <div class="c">
+        <div class="lbath">
           <h3>Luxury Bath</h3>
         </div>
-        <div class="c">
+        <div class="babys">
           <h3>Best Amazing Beautiful Yowza Super Cut (BABYS)</h3>
         </div>
       </div>
