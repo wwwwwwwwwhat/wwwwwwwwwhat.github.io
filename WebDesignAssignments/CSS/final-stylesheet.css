@@ -42,6 +42,18 @@ p.nav {
     z-index: 4;
     background-color: #dbb9ed;
   }
+main {
+  animation: mainA 0.8s ease-out forwards;
+}
+@keyframes mainA {
+  from {
+    opacity: 0%;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(0px);
+}
 body {
   margin: 0px;
   margin-top: 200px;
